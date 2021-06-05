@@ -52,31 +52,59 @@
       </section>
 
       <!-- FEATURES -->
-      <!-- <section class="features">
+      <section class="features">
         <div class="container">
           <div class="features__header">
             <h2 class="features__title">Features</h2>
             <p class="features__desc">Our aim is to make it quick and easy for you to access your favourite websites.
               Your bookmarks sync between your devices so you can access them on the go.</p>
             </div>
-            <div class="features__slider">
-              <a class="features__slider-buttons active__slider" href="#">Simple Bookmarking</a>
-              <a class="features__slider-buttons" href="#">Speedy Searching</a>
-              <a class="features__slider-buttons" href="#">Easy Sharing</a>
-            </div>
+            <ul class="features-tabs">
+              <li class="features-tabs__item features-tabs__item--active">
+                <a class="features-tabs__link" href="#">Simple Bookmarking</a>
+              </li>
 
-            <section class="features__bookmark">
+              <li class="features-tabs__item">
+                <a class="features-tabs__link" href="#">Speedy Searching</a>
+              </li>
+
+              <li class="features-tabs__item">
+                <a class="features-tabs__link" href="#">Easy Sharing</a>
+              </li>
+            </ul>
+
+            <div class="features__bookmark">
               <div class="features__bookmark-titles">
                 <h2 class="features__bookmark-head">Bookmark in one click</h2>
                 <p class="features__bookmark-content">Organize your bookmarks however you like. Our simple drag-and-drop
                   interface gives you complete control over how you manage your favourite sites.</p>
                   <a class="buttons button--blue" href="#" target="_blank">More Info</a>
                 </div>
-              </section>
+              </div>
             </div>
-          </section> -->
 
-<!-- EXTENSIONS -->
+            <div class="features__bookmark intelligient">
+              <div class="container">
+                <div class="features__bookmark-titles">
+                  <h2 class="features__bookmark-head">Intelligent search</h2>
+                  <p class="features__bookmark-content">Our powerful search feature will help you find saved sites in no time at all. No need to trawl through all of your bookmarks.</p>
+                  <a class="buttons button--blue" href="#" target="_blank">More Info</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="features__bookmark share-bookmark">
+              <div class="container">
+                <div class="features__bookmark-titles">
+                  <h2 class="features__bookmark-head">Share your bookmarks</h2>
+                  <p class="features__bookmark-content">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                  <a class="buttons button--blue" href="#" target="_blank">More Info</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- EXTENSIONS -->
 
           <section class="extensions">
             <div class="container">
@@ -121,8 +149,98 @@
                 </ul>
               </div>
             </section>
+            <!-- FAQ -->
+            <section class="faq page-section">
+              <div class="container">
+                <header class="page-section__header">
+                  <h2 class="page-section__heading">Frequently Asked Questions</h2>
+                  <p class="page-section__desc">Here are some of our FAQs. If you have any other questions you’d like answered please feel free to email us.</p>
+                </header>
 
-          </main>
-        </body>
+                <ul class="faq__list">
+                  <li class="faq__item qa">
+                    <header class="qa__header">
+                      <h3 class="qa__question">What is Bookmark?</h3>
+                      <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+                    </header>
+                    <div class="qa__answer">
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                    </div>
+                  </li>
 
-        </html>
+                  <li class="faq__item qa">
+                    <header class="qa__header">
+                      <h3 class="qa__question">How can I request a new browser?</h3>
+                      <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+                    </header>
+                    <div class="qa__answer">
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                    </div>
+                  </li>
+
+                  <li class="faq__item qa">
+                    <header class="qa__header">
+                      <h3 class="qa__question">Is there a mobile app?</h3>
+                      <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+                    </header>
+                    <div class="qa__answer">
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                    </div>
+                  </li>
+
+                  <li class="faq__item qa">
+                    <header class="qa__header">
+                      <h3 class="qa__question">What about other Chromium browsers?</h3>
+                      <button class="qa__toggler" type="button" aria-label="Toggle answer"></button>
+                    </header>
+                    <div class="qa__answer">
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                      <p class="qa__answer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas maxime at soluta velit, fugiat esse.</p>
+                    </div>
+                  </li>
+                </ul>
+                <div class="faq__button-box"><a class="buttons button--blue faq__button" href="#" target="_blank">More Info</a>
+                </div>
+              </div>
+            </section>
+
+            <section class="form">
+              <div class="container">
+                <header class="form__header">
+                  <p class="form__title">35,000+ ALREADY JOINED</p>
+                  <h3 class="form__desc">Stay up-to-date with what
+                    we’re doing</h3>
+                  </header>
+                  <form class="form-box" action="https://echo.htmlacademy.ru" method="post">
+
+                      <div class="form__input-group">
+                        <label class="input-group--items visually-hidden" for="email-input">Enter your email address</label>
+                        <input class="field" type="email" name="email" id="email-input" placeholder="Enter your email address" required>
+                        <div class="input__error-text">
+                          <span class="error-text">Whoops, make sure it’s an email</span>
+                        </div>
+                    </div>
+
+                    <label class="visually-hidden" for="form-btn">Submit button</label>
+                      <button class="header__nav__button form__button" type="submit" id="form-btn">contact us</button>
+
+
+                  </form>
+                </div>
+              </section>
+            </main>
+
+            <footer class="footer">
+
+            </footer>
+            <script src="./js/main.js"></script>
+          </body>
+
+          </html>
