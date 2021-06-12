@@ -47,15 +47,27 @@ elsTabsLink.forEach(function (link) {
 
 
 // FAQ
+// var elsQA = document.querySelectorAll('.qa');
+// var elsQAToggler = document.querySelectorAll('.qa__toggler');
+
+// elsQAToggler.forEach(function (toggler) {
+//   toggler.addEventListener('click', function () {
+//     elsQA.forEach(function (qa) {
+//       qa.classList.remove('qa--active');
+//     });
+
+//     toggler.closest('.qa').classList.toggle('qa--active');
+//   });
+// });
+
+
+
+// FAQ - with toggle
 var elsQA = document.querySelectorAll('.qa');
 var elsQAToggler = document.querySelectorAll('.qa__toggler');
 
 elsQAToggler.forEach(function (toggler) {
   toggler.addEventListener('click', function () {
-    elsQA.forEach(function (qa) {
-      qa.classList.remove('qa--active');
-    });
-
-    toggler.closest('.qa').classList.add('qa--active');
+  toggler.closest('.qa').classList.toggle('qa--active');
   });
 });
